@@ -1,0 +1,28 @@
+.rise-enabled .reveal
+{
+    background-color: rgb(217, 234, 154, 0.3) !important;
+}
+
+.rise-enabled .reveal .slides
+{
+    font-size: 20px;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: "Ricty", monospace;
+}
+
+.rise-enabled .reveal .slides :-webkit-any(h1, h2, h3, h4, h5, h6, p, li),
+.rise-enabled .reveal .slides div.output_subarea>pre
+{
+    color: black;
+}
+
+.rise-enabled .reveal .slides div.prompt.input_prompt
+{
+    color: black;
+}
+
+.rise-enabled .reveal .slides code
+{
+    background-color: ggb(217, 217, 214);
+    color: black;
+}
